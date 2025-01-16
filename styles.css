@@ -97,11 +97,17 @@ header img:hover {
   padding: 10px;
 }
 
+#main h2 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 #feature-nav > a {
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--main-color);
   transition: 0.3s;
+  margin-top: 1px;
 }
 
 #feature-nav > a::before {
@@ -110,4 +116,51 @@ header img:hover {
 
 #feature-nav > a:hover {
   background-color: var(--black-selected-text);
+}
+
+/* news */
+#news {
+  display: grid;
+}
+#news-posts {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 16px;
+}
+article {
+  padding: 16px;
+  text-align: ;
+}
+
+article a {
+  background-color: var(--main-color);
+  padding: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+
+article a:hover {
+  background-color: var(--bg-color);
+  color: var(--black-selected-text);
+}
+
+article img {
+  width: 600px;
+}
+
+.post-meta {
+  color: rgb(190, 196, 137);
+}
+
+/* footer */
+
+#footer {
+  width: 200%; /* Ensures the footer spans the entire viewport width */
+  justify-content: space-between; /* Adjusts spacing between elements inside */
+  align-items: center; /* Vertically centers the content */
+  padding: 10px 20px; /* Adds spacing inside the footer */
+  color: var(--text-color); /* Ensures text color matches the design */
+  background-color: var(--second-bg-color);
+  display: flex;
 }
