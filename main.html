@@ -6,157 +6,143 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <header>
+  <body id="main">
+    <header role="banner">
       <h1>MERZ <span>NEWS</span></h1>
       <img src="Assets/logo.jpg" alt="logo of Merz news" />
     </header>
-    <nav id="main-nav">
-      <a href="#main">main</a>
-      <a href="#news">news</a>
-      <a href="">something</a>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="#main">Main</a>
+      <a href="#news">News</a>
+      <a href="#footer">About</a>
     </nav>
-    <section class="advertisement">
+
+   <!-- -- ad -- -->
+    <aside class="advertisement" role="complementary" aria-label="Advertisement">
       <p>ADVERTISEMENT</p>
-      <a href="https://www.coca-cola.com"
-        ><img src="Assets/cola.jpg" alt=""
+      <a href="https://www.coca-cola.com" target="_blank"
+        ><img src="Assets/cola.jpg" alt="Coca cola ad"
       /></a>
-    </section>
-    <section id="main">
+    </aside>
+      <!-- ^^ ad ^^ -->
+
+<!-- featured nav -->
+    <section id="featured" aria-label="Featured news navigation">
       <h2>Featured</h2>
       <nav id="feature-nav">
-        <a href="">oh no o do iid dsan sd,a ,a</a>
-        <a href="">i think i like when it rains</a>
-        <a href=""> why are you doinf lie akth</a>
-        <a href="">uyesterday thiis is not fortable</a>
-        <a href="">uyesterday thiis is not fortable</a>
+        <a href="#news1">AI Detects Heart Disease from Eyes Scans</a>
+        <a href="#news2">Telstra Partners with Accenture to Integrate AI Across Operations</a>
+        <a href="#news3">Roborock Unveils AI-Powered Vacuums at CES 2025</a>
+        <a href="#news4">U.S. Imposes Export Controls on Biotech Equipment Over China Concerns</a>
+        <a href="#news5">AerCap CEO warns tariffs could delay Boeing cash recovery</a>
       </nav>
     </section>
     
 <!-- news-section -->
-    <section id="news" tabindex="0">
+    <section id="news" role="main">
       <h2 >News</h2>
-      <section id="news-posts" aria-labelledby="news-posts">
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
+      <section id="news-posts" aria-label="news-posts">
+        <article id="news1">
+          <img src="Assets/topic1.jpg" alt="Photo of sethoscope and a phone">
+          <h3>AI Detects Heart Disease from Eyes Scans</h3>
           <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
+            Researchers create AI that identifies heart disease risks through routine scans,
+             providing faster diagnoses and potentially saving lives with early interventions.
           </p>
           <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
+            Published on <time datetime="2026-12-11">December 11, 2026</time> |
+            National Eye Institute
           </p>
-          <a href="#read-more" tabindex="4">Read more</a>
+          <a href="https://www.nei.nih.gov/about/news-and-events/news/ai-can-identify-heart-disease-eye-scan" target="_blank">Read more</a>
           <hr>
         </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <article id="HTML">
-          <img src="Assets/topic1.jpg" alt="">
-          <h3>Understanding Semantic HTML</h3>
-          <p>
-            Semantic HTML refers to the use of HTML elements that convey the
-            meaning and structure of the content they contain. These elements
-            provide context, making the code more understandable for developers,
-            search engines, and assistive technologies like screen readers.
-          </p>
-          <p class="post-meta">
-            Published on <time datetime="2026-12-11">December 11, 2026</time> by
-            Okkar
-          </p>
-          <a href="#read-more" tabindex="4">Read more</a>
-        </article>
-        <section class="advertisement">
-          <p>ADVERTISEMENT</p>
-          <a href="https://www.coca-cola.com"
-            ><img src="Assets/cola.jpg" alt=""
-          /></a>
-        </section>
-        <footer id="footer">
-          <p>@MERZ NEWS</p>
-          <ul>
-            <a href="">facebook</a>
-            <a href="">instagram</a>
-          </ul>
-          <p>check form from here !</p>
-        </footer>
 
-  </body>
+        <article id="news2">
+          <img src="Assets/topic2.jpg " alt="Building with Accenture logo">
+          <h3>Telstra Partners with Accenture to Integrate AI Across Operations</h3>
+          <p>
+            Telstra's CEO, Vicki Brady, announces a $700 million joint venture with Accenture to embed AI throughout the company's operations, 
+            aiming to enhance customer experiences and optimize network functions.
+          </p>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> |
+            The Australian
+          </p>
+          <a href="https://www.theaustralian.com.au/subscribe/news/1/?sourceCode=TAWEB_WRE170_a&dest=https%3A%2F%2Fwww.theaustralian.com.au%2Fbusiness%2Fcompanies%2Fwhy-telstras-boss-is-taking-a-different-approach-to-building-ai%2Fnews-story%2Fbc13a9244ed4ed932b1cf63199ec1114&memtype=anonymous&mode=premium&v21=GROUPB-Segment-2-NOSCORE&V21spcbehaviour=append" target="_blank">Read more</a>
+          <hr>
+        </article>
+
+        <article id="news3">
+          <img src="Assets/topic3.jpg" alt="two different colored Roborock Unveils AI-Powered Vacuums">
+          <h3>Roborock Unveils AI-Powered Vacuums at CES 2025</h3>
+          <p>
+            At CES 2025, Roborock introduces the Saros Series,
+             featuring the Saros Z70 with a foldable OmniGrip arm designed to remove floor obstacles,
+              enhancing home cleaning efficiency.
+          </p>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> | NYpost
+          </p>
+          <a href="https://nypost.com/2025/01/15/shopping/roborock-launched-a-robotic-arm-on-its-vacuum-at-ces-2025/" target="_blank">Read more</a>
+          <hr>
+        </article>
+
+        <!-- -- ad -- -->
+        <aside class="advertisement" role="complementary" aria-label="Advertisement">
+          <p>ADVERTISEMENT</p>
+          <a href="https://www.razer.com/gaming-laptops/razer-blade-14" target="_blank"
+            ><img src="Assets/razer.jpg" alt="razer blade 14 latop ad"
+          /></a>
+        </aside>
+        <!-- ^^ ad ^^ -->
+
+        <article id="news4">
+          <img src="Assets/topic4.jpg" alt="Entrance of Herbert C. Hoover Building">
+          <h3>U.S. Imposes Export Controls on Biotech Equipment Over China Concerns</h3>
+          <p>
+            The U.S. Department of Commerce announces new export restrictions on biotechnology equipment, 
+            citing national security concerns related to AI and data science,
+             particularly regarding China's potential military applications.
+          </p>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> | Reuters
+          </p>
+          <a href="https://www.reuters.com/technology/us-imposing-new-export-controls-biotechnology-equipment-2025-01-15" target="_blank">Read more</a>
+          <hr>
+        </article>
+
+        <article id="news5">
+          <img src="Assets/topic5.JPG" alt="Photo of AerCap's CEO, Aengus Kelly">
+          <h3>AerCap CEO warns tariffs could delay Boeing cash recovery</h3>
+          <p>
+            AerCap's CEO, Aengus Kelly, cautions that newer aircraft require more maintenance due to advanced technologies, potentially leading to operational disruptions for airlines.
+          </p>
+          <p class="post-meta">
+            Published on <time datetime="2026-12-11">December 11, 2026</time> | Reuters
+          </p>
+          <a href="https://www.reuters.com/business/aerospace-defense/aercap-ceo-warns-tariffs-could-hinder-boeing-cash-recovery-2025-01-13/" target="_blank">Read more</a>
+          <hr>
+        </article>
+
+        </section>
+
+  <!-- footer -->
+  <footer id="footer" role="contentinfo">
+    <p>&copy; 2026 MERZ NEWS</p>
+
+    <ul>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </ul>
+    
+    <!-- Form -->
+    <p>Want to keep in touch with Merz News?</p>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </footer>
+  
+    </body>
 </html>
