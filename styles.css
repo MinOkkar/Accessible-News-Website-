@@ -105,6 +105,7 @@ header img:hover {
   border: #000000 solid;
   margin-top: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 #feature-nav {
