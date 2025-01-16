@@ -140,6 +140,10 @@ header img:hover {
 #news {
   display: grid;
 }
+
+#news > h2 {
+  text-align: center;
+}
 #news-posts {
   display: grid;
   grid-template-columns: auto auto;
