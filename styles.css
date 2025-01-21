@@ -7,7 +7,7 @@
   --black-selected-text: rgba(0, 0, 0, 0.308);
 }
 body {
-  margin: 1px;
+  margin: 20px;
   line-height: 1.6;
   display: grid;
 }
@@ -211,7 +211,11 @@ article img {
   background-color: var(--selected-text);
   color: var(--text-color);
 }
-
+#footer-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 #footer form {
   margin-top: 10px;
 }
@@ -219,6 +223,8 @@ article img {
 #footer input[type="email"] {
   padding: 5px;
   margin-right: 10px;
+  background-color: #0000001e;
+  color: var(--text-color);
 }
 
 #footer button {
